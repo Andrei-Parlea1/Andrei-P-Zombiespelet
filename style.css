@@ -1,0 +1,89 @@
+body {
+    background-color: #222;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #333;
+    border: 2px solid #555;
+}
+
+/* Game menu styles */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.menu-button:hover {
+    background-color: #666;
+}
+
+/* Player and zombie styles */
+.player, .zombie {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+
+.player {
+    background-color: blue;
+}
+
+.zombie {
+    background-color: green;
+}
+
+/* Health bar styles */
+.healthbar {
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+
+.healthbar-inner {
+    height: 100%;
+    background-color: lime;
+}
+
+/* Power-up styles */
+.power-up {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: yellow;
+}
+
+/* Game UI styles */
+.game-ui {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+.score {
+    /* Add any custom styles for the score display */
+}
